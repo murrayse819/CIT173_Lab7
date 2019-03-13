@@ -1,0 +1,6 @@
+[Unit]
+Description=Restarts system after 5 minutes
+
+[Service]
+Type=oneshot
+ExecStart=/bin/shutdown -r +5
